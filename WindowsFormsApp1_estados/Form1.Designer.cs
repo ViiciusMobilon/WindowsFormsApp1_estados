@@ -188,50 +188,50 @@
             // 
             // lbltodos
             // 
-            this.lbltodos.AutoSize = true;
-            this.lbltodos.Location = new System.Drawing.Point(409, 33);
+            this.lbltodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltodos.Location = new System.Drawing.Point(405, 36);
             this.lbltodos.Name = "lbltodos";
-            this.lbltodos.Size = new System.Drawing.Size(0, 13);
+            this.lbltodos.Size = new System.Drawing.Size(26, 23);
             this.lbltodos.TabIndex = 12;
             // 
             // lblnorte
             // 
-            this.lblnorte.AutoSize = true;
-            this.lblnorte.Location = new System.Drawing.Point(409, 86);
+            this.lblnorte.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnorte.Location = new System.Drawing.Point(405, 89);
             this.lblnorte.Name = "lblnorte";
-            this.lblnorte.Size = new System.Drawing.Size(0, 13);
+            this.lblnorte.Size = new System.Drawing.Size(26, 23);
             this.lblnorte.TabIndex = 13;
             // 
             // lblnordeste
             // 
-            this.lblnordeste.AutoSize = true;
-            this.lblnordeste.Location = new System.Drawing.Point(409, 138);
+            this.lblnordeste.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnordeste.Location = new System.Drawing.Point(405, 141);
             this.lblnordeste.Name = "lblnordeste";
-            this.lblnordeste.Size = new System.Drawing.Size(0, 13);
+            this.lblnordeste.Size = new System.Drawing.Size(26, 23);
             this.lblnordeste.TabIndex = 14;
             // 
             // lblsudeste
             // 
-            this.lblsudeste.AutoSize = true;
-            this.lblsudeste.Location = new System.Drawing.Point(409, 233);
+            this.lblsudeste.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsudeste.Location = new System.Drawing.Point(405, 236);
             this.lblsudeste.Name = "lblsudeste";
-            this.lblsudeste.Size = new System.Drawing.Size(0, 13);
+            this.lblsudeste.Size = new System.Drawing.Size(26, 23);
             this.lblsudeste.TabIndex = 15;
             // 
             // lblcentro
             // 
-            this.lblcentro.AutoSize = true;
-            this.lblcentro.Location = new System.Drawing.Point(409, 182);
+            this.lblcentro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcentro.Location = new System.Drawing.Point(405, 185);
             this.lblcentro.Name = "lblcentro";
-            this.lblcentro.Size = new System.Drawing.Size(0, 13);
+            this.lblcentro.Size = new System.Drawing.Size(26, 23);
             this.lblcentro.TabIndex = 16;
             // 
             // lblsul
             // 
-            this.lblsul.AutoSize = true;
-            this.lblsul.Location = new System.Drawing.Point(409, 283);
+            this.lblsul.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsul.Location = new System.Drawing.Point(405, 286);
             this.lblsul.Name = "lblsul";
-            this.lblsul.Size = new System.Drawing.Size(0, 13);
+            this.lblsul.Size = new System.Drawing.Size(26, 23);
             this.lblsul.TabIndex = 17;
             // 
             // bnttodos
@@ -242,6 +242,7 @@
             this.bnttodos.TabIndex = 18;
             this.bnttodos.Text = "-----";
             this.bnttodos.UseVisualStyleBackColor = true;
+            this.bnttodos.Click += new System.EventHandler(this.bnttodos_Click);
             // 
             // bntnorte
             // 
@@ -251,6 +252,7 @@
             this.bntnorte.TabIndex = 19;
             this.bntnorte.Text = "-----";
             this.bntnorte.UseVisualStyleBackColor = true;
+            this.bntnorte.Click += new System.EventHandler(this.bntnorte_Click);
             // 
             // bntnordeste
             // 
@@ -260,6 +262,7 @@
             this.bntnordeste.TabIndex = 20;
             this.bntnordeste.Text = "-----";
             this.bntnordeste.UseVisualStyleBackColor = true;
+            this.bntnordeste.Click += new System.EventHandler(this.bntnordeste_Click);
             // 
             // bntcentro
             // 
@@ -269,6 +272,7 @@
             this.bntcentro.TabIndex = 21;
             this.bntcentro.Text = "-----";
             this.bntcentro.UseVisualStyleBackColor = true;
+            this.bntcentro.Click += new System.EventHandler(this.bntcentro_Click);
             // 
             // bntsudeste
             // 
@@ -278,6 +282,7 @@
             this.bntsudeste.TabIndex = 22;
             this.bntsudeste.Text = "-----";
             this.bntsudeste.UseVisualStyleBackColor = true;
+            this.bntsudeste.Click += new System.EventHandler(this.bntsudeste_Click);
             // 
             // bntsul
             // 
@@ -287,6 +292,7 @@
             this.bntsul.TabIndex = 23;
             this.bntsul.Text = "-----";
             this.bntsul.UseVisualStyleBackColor = true;
+            this.bntsul.Click += new System.EventHandler(this.bntsul_Click);
             // 
             // v
             // 
